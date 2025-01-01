@@ -85,7 +85,7 @@
 
 	-- Connection config
 	worldId = 0
-	ip = "187.183.33.219"
+	ip = "127.0.0.1"
 	bindOnlyConfiguredIpAddress = false
 	loginPort = 7171
 	gamePort = 7172
@@ -143,7 +143,7 @@
 	buyableAndSellableHouses = true
 	houseNeedPremium = true
 	bedsRequirePremium = true
-	levelToBuyHouse = 1
+	levelToBuyHouse = 100
 	housesPerAccount = 0
 	houseRentAsPrice = false
 	housePriceAsRent = false
@@ -233,11 +233,11 @@
 	-- NOTE: experienceStages configuration is located in data/XML/stages.xml.
 	-- rateExperienceFromPlayers 0 to disable.
 	experienceStages = "yes"
-	rateExperience = 800
+	rateExperience = 1200
 	rateExperienceFromPlayers = 0
 	rateSkill = 300
 	rateMagic = 200
-	rateLoot = 35
+	rateLoot = 30
 	rateSpawn = 2
 
 	-- Monster rates
