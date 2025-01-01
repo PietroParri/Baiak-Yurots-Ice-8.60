@@ -1632,7 +1632,6 @@
     <monster name="Monk" x="-4" y="2" z="7" spawntime="60"/>
     <monster name="Ashmunrah" x="-1" y="2" z="7" spawntime="60"/>
     <monster name="Hero" x="2" y="2" z="7" spawntime="60"/>
-    <monster name="Arkhothep" x="4" y="2" z="7" spawntime="60"/>
     <monster name="Assassin" x="-4" y="3" z="7" spawntime="60"/>
     <monster name="Pirate Buccaneer" x="-2" y="3" z="7" spawntime="60"/>
     <monster name="Black Knight" x="1" y="3" z="7" spawntime="60"/>
@@ -10836,12 +10835,6 @@
   </spawn>
   <spawn centerx="406" centery="489" centerz="13" radius="5">
     <monster name="Medusa" x="1" y="0" z="13" spawntime="60"/>
-  </spawn>
-  <spawn centerx="651" centery="562" centerz="13" radius="5">
-    <monster name="Exp bug" x="-1" y="1" z="13" spawntime="60"/>
-  </spawn>
-  <spawn centerx="669" centery="564" centerz="13" radius="5">
-    <monster name="Exp bug" x="-1" y="-2" z="13" spawntime="60"/>
   </spawn>
   <spawn centerx="660" centery="575" centerz="13" radius="5">
     <monster name="Frost Dragon Vip" x="-1" y="-5" z="13" spawntime="20"/>
