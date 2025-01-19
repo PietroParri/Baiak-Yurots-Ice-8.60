@@ -154,7 +154,7 @@
 
 	-- Item usage
 	timeBetweenActions = 200
-	timeBetweenExActions = 1000
+	timeBetweenExActions = 800
 	checkCorpseOwner = true
 	hotkeyAimbotEnabled = true
 	maximumDoorLevel = 500
