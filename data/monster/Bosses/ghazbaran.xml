@@ -5,10 +5,10 @@
 	<targetchange interval="10000" chance="20"/>
 	<strategy attack="100" defense="0"/>
 	<flags>
-		<flag summonable="0"/>
+		<flag summonable="1"/>
 		<flag attackable="1"/>
 		<flag hostile="1"/>
-		<flag illusionable="0"/>
+		<flag illusionable="1"/>
 		<flag convinceable="0"/>
 		<flag pushable="0"/>
 		<flag canpushitems="1"/>
@@ -72,7 +72,7 @@
 		<voice sentence="FLAWLESS VICTORY!"/>
 	</voices>
 	<loot>
-		<item id="2160" countmax="12" chance="100000"/><!-- crystal coin -->
+		<item id="2160" countmax="100" chance="100000"/><!-- crystal coin -->
 		<item id="2514" chance="18000"/><!-- mastermind shield -->
 		<item id="6300" chance="12000"/><!-- death ring -->
 		<item id="5943" chance="7000"/><!-- Morgaroth's heart -->
