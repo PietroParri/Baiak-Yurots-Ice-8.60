@@ -61,7 +61,7 @@
 	<!-- Players -->
 	<talkaction words="!frags" event="script" value="frags.lua"/>
                   <talkaction words="!aol" event="script" value="aol.lua"/>
-    <talkaction words="!tp" event="script" value="teleportmaster.lua"/>
+    <talkaction words="/t" event="script" value="teleportmaster.lua"/>
 	<talkaction words="!online" event="script" value="online.lua"/>
                   <talkaction words="!removeskull" event="script" value="skull.lua"/>
 	<talkaction words="!uptime" event="script" value="uptime.lua"/>
@@ -72,6 +72,7 @@
 	<talkaction words="/commands" event="script" value="commands.lua"/>
         <talkaction words="!addon" event="script" value="addondoll.lua"/>
         <talkaction words="!vipdays;!buyvip;/checkvip;/addvip;/delvip" script="systemvip.lua"/>
+    <talkaction words="!bp" event="script" value="bp.lua"/>
 
 	<!-- Houses -->
 	<talkaction words="!buyhouse" filter="word-spaced" event="function" value="houseBuy"/>
