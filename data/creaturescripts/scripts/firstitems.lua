@@ -7,7 +7,7 @@ firstItems[0] =
 2124,
 2460,
 2478,
-2643
+2195
 }
 firstItems[1] =
 {
@@ -17,7 +17,7 @@ firstItems[1] =
 2124,
 2460,
 2478,
-2643
+2195
 }
 firstItems[2] =
 {
@@ -27,7 +27,7 @@ firstItems[2] =
 2124,
 2460,
 2478,
-2643
+2195
 }
 firstItems[3] =
 {
@@ -37,7 +37,7 @@ firstItems[3] =
 2124,
 2460,
 2478,
-2643
+2195
 }
 firstItems[4] =
 {
@@ -47,7 +47,7 @@ firstItems[4] =
 2124,
 2460,
 2478,
-2643
+2195
 }
 
 function onLogin(cid)
@@ -64,6 +64,7 @@ local bag = doPlayerAddItem(cid, 10518, 1)
 doAddContainerItem(bag, 2160, 1)
 doAddContainerItem(bag, 2554, 1)
 doAddContainerItem(bag, 2120, 1)
+doAddContainerItem(bag, 2268, 3)
 doAddContainerItem(bag, 7618, 1)
 doAddContainerItem(bag, 2383, 1)
 setPlayerStorageValue(cid, 30001, 1)

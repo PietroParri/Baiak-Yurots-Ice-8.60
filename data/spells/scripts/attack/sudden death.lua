@@ -3,7 +3,7 @@ setCombatParam(combat, COMBAT_PARAM_TARGETCASTERORTOPMOST, true)
 setCombatParam(combat, COMBAT_PARAM_TYPE, COMBAT_DEATHDAMAGE)
 setCombatParam(combat, COMBAT_PARAM_EFFECT, CONST_ME_MORTAREA)
 setCombatParam(combat, COMBAT_PARAM_DISTANCEEFFECT, CONST_ANI_SUDDENDEATH)
-setCombatFormula(combat, COMBAT_FORMULA_LEVELMAGIC, -1, -50, -1, -80, 5, 35, 33, 7)
+setCombatFormula(combat, COMBAT_FORMULA_LEVELMAGIC, -1, -250, -1, -400, 5, 35, 33, 7)
 
 
 local condition = createConditionObject(CONDITION_CURSED)

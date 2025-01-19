@@ -16,7 +16,7 @@
 	<rune name="Light Magic Missile" id="2287" allowfaruse="1" charges="10" lvl="15" exhaustion="2000" maglv="0" needtarget="1" blocktype="solid" event="script" value="attack/light magic missile.lua"/>
 	<rune name="Heavy Magic Missile" id="2311" allowfaruse="1" charges="10" lvl="25" exhaustion="2000" maglv="3" needtarget="1" blocktype="solid" event="script" value="attack/heavy magic missile.lua"/>
 	<rune name="Explosion" id="2313" allowfaruse="1" charges="6" lvl="31" maglv="6" exhaustion="2000" blocktype="solid" event="script" value="attack/explosion.lua"/>
-	<rune name="Sudden Death" id="2268" allowfaruse="1" charges="3" lvl="45" maglv="15" exhaustion="900" needtarget="1" blocktype="solid" event="script" value="attack/sudden death.lua"/>
+	<rune name="Sudden Death" id="2268" allowfaruse="1" charges="3" lvl="45" maglv="15" exhaustion="600" needtarget="1" blocktype="solid" event="script" value="attack/sudden death.lua"/>
 	<rune name="Icicle" id="2271" allowfaruse="1" charges="5" lvl="28" maglv="4" exhaustion="2000" needtarget="1" event="script" value="attack/icicle.lua"/>
 	<rune name="Avalanche" id="2274" allowfaruse="1" charges="4" lvl="30" maglv="4" exhaustion="2000" event="script" value="attack/avalanche.lua"/>
 	<rune name="Stone Shower" id="2288" allowfaruse="1" charges="4" lvl="28" maglv="4" exhaustion="2000" event="script" value="attack/stone shower.lua"/>
@@ -53,19 +53,19 @@
 	</rune>
 
 	<!-- Attack Spells -->
-	<instant name="Death Strike" words="exori mort" lvl="16" mana="20" prem="1" range="3" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="attack/death strike.lua">
+	<instant name="Death Strike" words="exori mort" lvl="16" mana="20" prem="1" range="10" casterTargetOrDirection="1" blockwalls="1" exhaustion="800" needlearn="0" event="script" value="attack/death strike.lua">
 		<vocation id="1"/>
 		<vocation id="2"/>
 		<vocation id="5"/>
 		<vocation id="6"/>
 	</instant>
-	<instant name="Flame Strike" words="exori flam" lvl="12" mana="20" prem="1" range="3" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="attack/flame strike.lua">
+	<instant name="Flame Strike" words="exori flam" lvl="12" mana="20" prem="1" range="10" casterTargetOrDirection="1" blockwalls="1" exhaustion="800" needlearn="0" event="script" value="attack/flame strike.lua">
 		<vocation id="1"/>
 		<vocation id="2"/>
 		<vocation id="5"/>
 		<vocation id="6"/>
 	</instant>
-	<instant name="Energy Strike" words="exori vis" lvl="12" mana="20" prem="1" range="3" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="attack/energy strike.lua">
+	<instant name="Energy Strike" words="exori vis" lvl="12" mana="20" prem="1" range="10" casterTargetOrDirection="1" blockwalls="1" exhaustion="800" needlearn="0" event="script" value="attack/energy strike.lua">
 		<vocation id="1"/>
 		<vocation id="2"/>
 		<vocation id="5"/>
@@ -103,7 +103,7 @@
 		<vocation id="1"/>
 		<vocation id="5"/>
 	</instant>
-	<instant name="Rage of the Skies" words="exevo gran mas vis" lvl="55" mana="650" selftarget="1" prem="1" exhaustion="2000" needlearn="0" event="script" value="attack/rage of the skies.lua">
+	<instant name="Rage of the Skies" words="exevo gran mas vis" lvl="55" mana="375" selftarget="1" prem="1" exhaustion="1000" needlearn="0" event="script" value="attack/rage of the skies.lua">
 		<vocation id="1"/>
 		<vocation id="5"/>
 	</instant>
@@ -111,7 +111,7 @@
 		<vocation id="4"/>
 		<vocation id="8"/>
 	</instant>
-		<instant name="Hells Core" words="exevo gran mas flam" lvl="60" mana="1200" prem="1" exhaustion="2000" selftarget="1" needlearn="0" event="script" value="attack/hells core.lua">
+		<instant name="Hells Core" words="exevo gran mas flam" lvl="60" mana="600" prem="1" exhaustion="1000" selftarget="1" needlearn="0" event="script" value="attack/hells core.lua">
 		<vocation id="1"/>
 		<vocation id="5"/>
 	</instant>
@@ -123,11 +123,11 @@
 		<vocation id="3"/>
 		<vocation id="7"/>
 	</instant>
-	<instant name="Eternal Winter" words="exevo gran mas frigo" lvl="60" mana="1200" prem="1" selftarget="1" exhaustion="2000" needlearn="0" event="script" value="attack/eternal winter.lua">
+	<instant name="Eternal Winter" words="exevo gran mas frigo" lvl="60" mana="600" prem="1" selftarget="1" exhaustion="1000" needlearn="0" event="script" value="attack/eternal winter.lua">
 		<vocation id="2"/>
 		<vocation id="6"/>
 	</instant>
-	<instant name="Ice Strike" words="exori frigo" lvl="15" mana="20" prem="1" range="3" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="attack/ice strike.lua">
+	<instant name="Ice Strike" words="exori frigo" lvl="15" mana="20" prem="1" range="10" casterTargetOrDirection="1" blockwalls="1" exhaustion="800" needlearn="0" event="script" value="attack/ice strike.lua">
 		<vocation id="1"/>
 		<vocation id="5"/>
 		<vocation id="2"/>
@@ -147,7 +147,7 @@
 		<vocation id="2"/>
 		<vocation id="6"/>
 	</instant>
-	<instant name="Wrath of Nature" words="exevo gran mas tera" lvl="55" mana="770" prem="1" selftarget="1" exhaustion="2000" needlearn="0" event="script" value="attack/wrath of nature.lua">
+	<instant name="Wrath of Nature" words="exevo gran mas tera" lvl="55" mana="385" prem="1" selftarget="1" exhaustion="1000" needlearn="0" event="script" value="attack/wrath of nature.lua">
 		<vocation id="2"/>
 		<vocation id="6"/>
 	</instant>
@@ -297,6 +297,12 @@
 		<vocation id="8"/>
 	</instant>
 	<instant name="Strong Haste" words="utani gran hur" lvl="20" mana="100" prem="1" aggressive="0" selftarget="1" exhaustion="1000" needlearn="0" event="script" value="support/strong haste.lua">
+		<vocation id="1"/>
+		<vocation id="2"/>
+		<vocation id="5"/>
+		<vocation id="6"/>
+	</instant>
+	<instant name="Mega Haste" words="utani max hur" lvl="45" mana="100" prem="1" aggressive="0" selftarget="1" exhaustion="1000" needlearn="0" event="script" value="support/mega haste.lua">
 		<vocation id="1"/>
 		<vocation id="2"/>
 		<vocation id="5"/>

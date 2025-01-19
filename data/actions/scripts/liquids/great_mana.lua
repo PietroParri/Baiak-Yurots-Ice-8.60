@@ -1,5 +1,10 @@
-local MIN = 950
-local MAX = 1000
+local MIN = 1000
+local MAX = 1500
+local min300 = 1500
+local max300 = 3000
+local min500 = 3000
+local max500 = 6000
+local lvl1, lvl2, lvl3 = 299,499,500
 local EMPTY_POTION = 7635
 
 local exhaust = createConditionObject(CONDITION_EXHAUST)
@@ -20,8 +25,14 @@ function onUse(cid, item, fromPosition, itemEx, toPosition)
 		return TRUE
 	end
 
-	if doPlayerAddMana(itemEx.uid, math.random(MIN, MAX)) == LUA_ERROR then
-		return FALSE
+	if(getPlayerStorageValue(cid, 14725 <= os.time()) then
+		if getPlayerLevel(cid) <= lvl1 then
+		doPlayerAddMana(itemEx.uid, math.random(min, max))
+		elseif getPlayerLevel(cid) >= lvl1+1 and getPlayerLevel(cid) <= lvl2 then
+		doPlayerAddMana(itemEx.uid, math.random(min300, max300))
+		elseif getPlayerLevel(cid) >= lvl3 then
+		doPlayerAddMana(itemEx.uid, math.random(min500, max500))
+		end
 	end
 
 	doAddCondition(cid, exhaust)
