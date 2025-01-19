@@ -182,7 +182,7 @@
 	confirmOutdatedVersion = false
 
 	-- Muted buffer
-	maxMessageBuffer = 4
+	maxMessageBuffer = 10
 	bufferMutedOnSpellFailure = false
 
 	-- Miscellaneous
