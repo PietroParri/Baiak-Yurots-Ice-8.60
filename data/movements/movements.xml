@@ -800,10 +800,7 @@
 	<movevent type="DeEquip" itemid="9956" slot="pickupable" event="function" value="onDeEquipItem"/>
         <movevent type="StepIn" uniqueid="13700" event="script" value="vipe.lua"/>
         <movevent type="StepIn" uniqueid="13540" event="script" value="vip.lua"/>
-        <movevent type="StepIn" uniqueid="13000" event="script" value="Red.lua"/>
-        <movevent type="StepIn" uniqueid="13001" event="script" value="Green.lua"/>
         <movevent type="StepIn" uniqueid="13539" event="script" value="vip2.lua"/>
-        <movevent type="StepIn" uniqueid="13550" event="script" value="level.lua"/>
         <movevent type="StepIn" uniqueid="13538" event="script" value="vip3.lua"/>
 
 </movements>
