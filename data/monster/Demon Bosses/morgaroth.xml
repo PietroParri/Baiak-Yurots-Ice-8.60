@@ -69,7 +69,7 @@
 		<item id="2186" chance="1538" /> -- moonlight rod
 		<item id="2396" chance="1429" /> -- ice rapier
 		<item id="2462" chance="4700" /> -- devil helmet
-		<item id="2003" chance="100000">< <!-- grey backpack -->
+		<item id="2003" chance="100000"> <!-- grey backpack -->
 			<inside>
 				<item id="2387" chance="10000" /> -- double axe
 				<item id="7431" chance="7900" /> -- Demonbone

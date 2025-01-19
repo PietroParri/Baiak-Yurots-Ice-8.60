@@ -375,11 +375,10 @@
 	<monster name="Dark Monk" file="monks/dark monk.xml"/>
 	<monster name="Monk" file="monks/monk.xml"/>
 	<monster name="tha exp carrier" file="monks/tha exp carrier.xml"/>
-                 <monster name="Vip Trainer" file="monks/Vip Trainer.xml"/>
+	<monster name="Vip Trainer" file="monks/Vip Trainer.xml"/>
 	<monster name="Fernfang" file="monks/Fernfang.xml"/>
-                 <monster name="Treiner" file="monks/Treiner.xml"/>
-        <monster name="Vip Trainer" file="monks/Vip Trainer.xml"/>
-        <monster name="Training" file="monks/xD.xml"/>
+	<monster name="Treiner" file="monks/Treiner.xml"/>
+	<monster name="Training" file="monks/xD.xml"/>
 	
 	<!-- Necromancers -->
 	<monster name="Necromancer" file="necromancers/necromancer.xml"/>
