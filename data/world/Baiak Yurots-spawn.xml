@@ -61,7 +61,6 @@
     <npc name="Perac" x="0" y="0" z="5" spawntime="60"/>
   </spawn>
   <spawn centerx="128" centery="48" centerz="5" radius="5">
-    <npc name="Especialista of Sotf" x="-1" y="0" z="5" spawntime="60"/>
     <npc name="Johnny" x="2" y="0" z="5" spawntime="60"/>
     <npc name="Rashid" x="4" y="0" z="5" spawntime="60"/>
   </spawn>
