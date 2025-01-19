@@ -73,7 +73,8 @@
 	<talkaction words="!commands" event="script" value="commands.lua"/>
 	<talkaction words="!addon" event="script" value="addondoll.lua"/>
     <talkaction words="!bp" event="script" value="bp.lua"/>
-	<talkaciton words="!spellbook" event="function" value="spellbook.lua"/>
+	<talkaction words="!spellbook" event="script" value="spellbook.lua"/>
+	<talkaction words="!promotion" event="script" value="promotion.lua"/>
 
 	<!-- Houses -->
 	<talkaction words="!buyhouse" filter="word-spaced" event="function" value="houseBuy"/>
@@ -89,7 +90,6 @@
 	<talkaction words="!joinguild" event="function" value="guildJoin"/>
 	
 	<!-- Custom systems -->
-	<talkaction words="!notice" event="script" value="notice.lua"/>
 	<talkaction words="!rank" script="ranks.lua"/>	
 	<talkaction words="!jail" script="Cadeia.lua"/>
 	<talkaction words="!unjail" script="Cadeia.lua"/>
