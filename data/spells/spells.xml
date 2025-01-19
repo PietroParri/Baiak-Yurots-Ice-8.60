@@ -103,9 +103,15 @@
 		<vocation id="1"/>
 		<vocation id="5"/>
 	</instant>
-	<instant name="Rage of the Skies" words="exevo gran mas vis" lvl="55" mana="375" selftarget="1" prem="1" exhaustion="1000" needlearn="0" event="script" value="attack/rage of the skies.lua">
+	<instant name="Rage of the Skies" words="exevo gran mas vis" lvl="55" mana="325" selftarget="1" prem="1" exhaustion="1000" needlearn="0" event="script" value="attack/rage of the skies.lua">
 		<vocation id="1"/>
 		<vocation id="5"/>
+	</instant>
+	<instant name="Kiss of Death" words="exevo gran mas mort" lvl="80" mana="800" selftarget="1" prem="1" exhaustion="1000" needlearn="0" event="script" value="attack/kiss of death.lua">
+		<vocation id="1"/>		
+		<vocation id="2"/>
+		<vocation id="5"/>
+		<vocation id="6"/>
 	</instant>
 	<instant name="Fierce Berserk" words="exori gran" lvl="70" mana="340" prem="1" needweapon="1" exhaustion="2000" needlearn="0" event="script" value="attack/fierce berserk.lua">
 		<vocation id="4"/>
@@ -412,9 +418,7 @@
 	<conjure name="Power Bolt" words="exevo con vis" lvl="59" mana="800" soul="4" prem="1" conjureId="2547" conjureCount="10" exhaustion="1000" needlearn="0" event="function" value="conjureItem">
 		<vocation id="7"/>
 	</conjure>
-	<conjure name="Conjure Assassin" words="exevo con san" lvl="80" mana="500" soul="0" conjureId="7368" conjureCount="15" exhaustion="1000" needlearn="0" function="conjureItem">
-		<vocation name="Royal Paladin"/>
-	</conjure>	<conjure name="Conjure Blank" words="adori blank" lvl="20" mana="200" soul="0" conjureId="2260" conjureCount="1" exhaustion="2000" needlearn="0" function="conjureItem">
+	<conjure name="Conjure Blank" words="adori blank" lvl="20" mana="200" soul="0" conjureId="2260" conjureCount="1" exhaustion="2000" needlearn="0" function="conjureItem">
 		<vocation id="1"/>
 		<vocation id="2"/>
 		<vocation id="3"/>
