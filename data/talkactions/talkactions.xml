@@ -56,23 +56,24 @@
 
 	<!-- Tutors -->
 	<talkaction log="no" words="/baninfo" access="1" event="function" value="banishmentInfo"/>
-	<talkaction log="no" access="1" words="/pos" event="script" value="position.lua"/>
+	<talkaction log="no" words="/pos" access="1" event="script" value="position.lua"/>
 
 	<!-- Players -->
 	<talkaction words="!frags" event="script" value="frags.lua"/>
-                  <talkaction words="!aol" event="script" value="aol.lua"/>
-    <talkaction words="/t" event="script" value="teleportmaster.lua"/>
+	<talkaction words="!aol" event="script" value="aol.lua"/>
+	<talkaction words="/t" event="script" value="teleportmaster.lua"/>
 	<talkaction words="!online" event="script" value="online.lua"/>
-                  <talkaction words="!removeskull" event="script" value="skull.lua"/>
+	<talkaction words="!removeskull" event="script" value="skull.lua"/>
 	<talkaction words="!uptime" event="script" value="uptime.lua"/>
 	<talkaction words="!pvp" event="script" value="pvp.lua"/>
-                  <talkaction words="!bless" event="script" value="bless.lua"/>
-	<talkaction words="!q" event="script" value="money.lua"/>
+	<talkaction words="!bless" event="script" value="bless.lua"/>
+	<talkaction words="!money" event="script" value="money.lua"/>
 	<talkaction words="!serverinfo" event="script" value="serverinfo.lua"/>
 	<talkaction words="/commands" event="script" value="commands.lua"/>
-        <talkaction words="!addon" event="script" value="addondoll.lua"/>
-        <talkaction words="!vipdays;!buyvip;/checkvip;/addvip;/delvip" script="systemvip.lua"/>
+	<talkaction words="!commands" event="script" value="commands.lua"/>
+	<talkaction words="!addon" event="script" value="addondoll.lua"/>
     <talkaction words="!bp" event="script" value="bp.lua"/>
+	<talkaciton words="!spellbook" event="function" value="spellbook.lua"/>
 
 	<!-- Houses -->
 	<talkaction words="!buyhouse" filter="word-spaced" event="function" value="houseBuy"/>
@@ -86,42 +87,11 @@
 	<!-- Guilds -->
 	<talkaction words="!createguild" event="function" value="guildCreate"/>
 	<talkaction words="!joinguild" event="function" value="guildJoin"/>
-
-	<!-- (Deprecated) Redirect old '/' to '!' -->
-	<talkaction words="/online" hide="yes" event="script" value="online.lua"/>
-	<talkaction words="/uptime" hide="yes" event="script" value="uptime.lua"/>
-	<talkaction words="/pvp" hide="yes" event="script" value="pvp.lua"/>
-	<talkaction words="/serverinfo" hide="yes" event="script" value="serverinfo.lua"/>
-	<talkaction log="no" access="1" hide="yes" words="!pos" event="script" value="position.lua"/>
 	
 	<!-- Custom systems -->
 	<talkaction words="!notice" event="script" value="notice.lua"/>
 	<talkaction words="!rank" script="ranks.lua"/>	
-<talkaction words="!jail" script="Cadeia.lua"/>
-<talkaction words="!unjail" script="Cadeia.lua"/>
-<talkaction words="/jail" script="Cadeia.lua"/>
-<talkaction words="/unjail" script="Cadeia.lua"/>
-<talkaction words="!necromancer" script="demonic.lua"/>
-<talkaction words="!nightmare" script="love.lua"/>
-
-<talkaction filter="word" words="/guild" script="guildcast.lua"/>
-<talkaction words="!afk" event="script" value="afk.lua"/>
-<talkaction words="!treinando" event="script" value="treinando.lua"/>
-	<!-- custon By Revange -->
-	<!-- pollsystem talkactions -->
-    <talkaction words="!createpoll" event="script" value="PollSystem.lua"/>
-    <talkaction words="!activatepoll" event="script" value="PollSystem.lua"/>
-    <talkaction words="!cancelpoll" event="script" value="PollSystem.lua"/>
-    <talkaction words="!seepoll" event="script" value="PollSystem.lua"/>
-    <talkaction words="!seeresults" event="script" value="PollSystem.lua"/>
-    <talkaction words="!remvotes" event="script" value="PollSystem.lua"/>
-    <talkaction words="!rempoll" event="script" value="PollSystem.lua"/>
-    <talkaction words="!votepoll" event="script" value="PollSystem.lua"/>
-
-<talkaction words="love" script="love.lua"/>
-
-<talkaction words="!attackguild" event="script" value="attackguild.lua"/>
-<talkaction words="!vipdays" event="script" value="vip/vipdays.lua" />
-<talkaction words="/addvip" script="addvip2.lua"/>
-    <talkaction log="no" words="/vip" access="5" event="script" value="vip/addvipp.lua" />
+	<talkaction words="!jail" script="Cadeia.lua"/>
+	<talkaction words="!unjail" script="Cadeia.lua"/>
+	<talkaction filter="word" words="/guild" script="guildcast.lua"/>
 </talkactions>
